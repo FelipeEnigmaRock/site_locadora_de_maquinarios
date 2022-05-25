@@ -1,6 +1,6 @@
 <template>
     <div class="main-footer">
-        <router-link to="/"> <img class="logo" src="../assets/img/Logo.jpg" alt="Construtora Leite"> </router-link>
+        <router-link to="/"> <img class="logo" src="../assets/img/logo1.png" alt="Construtora Leite"> </router-link>
         <h1><router-link to="/" class="h1"> CONSTRUTORA LEITE </router-link></h1>
     </div>
 </template>

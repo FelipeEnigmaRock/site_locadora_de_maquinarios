@@ -5,7 +5,7 @@
     <div>
       <router-view></router-view>
       <div>
-        <a href="https://web.whatsapp.com/send?phone=5579998009919" target="_blank">
+        <a href="https://web.whatsapp.com/send?phone=5582993310998" target="_blank">
           <img class="icon-whats" src="./assets/img/whatsapp-icone-6.png">
         </a>
       </div>
@@ -33,6 +33,7 @@ padding: 0;
 margin: 0;
 font-family: sans-serif;
 box-sizing: border-box;
+font-family: 'Playfair Display', serif;
 
 }
 
@@ -44,5 +45,6 @@ box-sizing: border-box;
   position: fixed;
   z-index: 1000;
 }
+
 
 </style>
