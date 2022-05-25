@@ -1,6 +1,7 @@
 <template>
     <div class="main-footer">
-
+        <router-link to="/"> <img class="logo" src="../assets/img/Logo.jpg" alt="Construtora Leite"> </router-link>
+        <h1><router-link to="/" class="h1"> CONSTRUTORA LEITE </router-link></h1>
     </div>
 </template>
 
@@ -13,10 +14,28 @@ export default {
 <style scoped>
 .main-footer {
     width: 100%;
-    height: 150px;
+    padding: 20px;
     background-color: #000;
     display: flex;
     bottom: 0;
     position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 7rem;
+    margin-right: 40px;
+}
+
+.h1 {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 680px) {
+    .h1 {
+        display: none;
+    }
 }
 </style>

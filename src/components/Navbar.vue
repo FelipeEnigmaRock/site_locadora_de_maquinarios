@@ -26,13 +26,14 @@ export default {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  position: absolute;
+
  
 }
 
 .logo {
   margin-left: 0;
   margin-right: 40px;
+  width: 5.5rem;
 }
 
 .inicio,
@@ -48,10 +49,6 @@ export default {
   color: rgb(226, 95, 55);
 }
 
-.logo {
-  width: 5.5rem;
-}
-
 h1 {
   color: #fff;
   margin-left: 80px;
@@ -65,11 +62,15 @@ a {
 }
 
 @media (max-width: 680px) {
+  .main-navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+  
   h1 {
-  color: #000;
-  margin-left: 0;
-  font-size: 0.01px;
+  display: none;
 }
+
 
 
 }
