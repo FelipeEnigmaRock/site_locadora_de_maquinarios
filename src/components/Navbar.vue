@@ -26,6 +26,7 @@ export default {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: ;
 
  
 }
@@ -46,7 +47,7 @@ export default {
 
 .inicio:hover,
 .fale:hover {
-  color: rgb(226, 95, 55);
+  color: #ff8040;
 }
 
 h1 {
