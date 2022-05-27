@@ -1,6 +1,6 @@
 <template>
   <div class="main-navbar">
-    <router-link to="/"> <img class="logo" src="../assets/img/logo1.png" alt="Construtora Leite"> </router-link>
+    <router-link to="/"> <img class="logo" src="../assets/img/logo1.png" alt="Logo da Construtora Leite"> </router-link>
     <h1><router-link to="/"> CONSTRUTORA LEITE </router-link></h1>
     <router-link class="inicio" to="/">Início</router-link> 
     <router-link class="fale" to="/about">Fale Conosco</router-link>
