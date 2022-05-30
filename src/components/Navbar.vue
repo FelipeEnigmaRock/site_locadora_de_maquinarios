@@ -57,6 +57,10 @@ h1 {
   margin-left: 0;
 }
 
+a:hover {
+    color: #ff8040;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -71,8 +75,6 @@ a {
   h1 {
   display: none;
 }
-
-
 
 }
 

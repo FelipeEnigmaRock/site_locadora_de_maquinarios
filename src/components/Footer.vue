@@ -33,6 +33,10 @@ export default {
     text-decoration: none;
 }
 
+.h1:hover {
+    color: #ff8040;
+}
+
 @media (max-width: 680px) {
     .h1 {
         display: none;

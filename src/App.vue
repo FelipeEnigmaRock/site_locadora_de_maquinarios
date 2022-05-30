@@ -1,7 +1,6 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
 <template>
   <nav>
-    <Navbar :logo="logo_src" :alt="app_name" />
+    <Navbar />
     <div>
       <router-view></router-view>
       <div>
@@ -33,7 +32,7 @@ padding: 0;
 margin: 0;
 font-family: sans-serif;
 box-sizing: border-box;
-font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display', serif, Arial;
 
 }
 

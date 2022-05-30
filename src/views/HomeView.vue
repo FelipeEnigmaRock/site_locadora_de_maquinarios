@@ -6,14 +6,14 @@
 
 <script>
 // @ is an alias to /src
-import Navbar from '@/components/Navbar.vue'
 import About from '../components/About.vue'
+import Sales from '../components/Sales.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    Navbar,
-    About
+    About,
+    Sales
   }
 }
 </script>
