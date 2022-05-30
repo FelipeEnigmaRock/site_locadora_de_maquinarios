@@ -1,6 +1,6 @@
 <template>
-    <section class="main-sales">
-      <h1>Entre em contato conosco</h1>
+  <section class="main-machines">
+      <h1>Maquinário disponível</h1>
       <span class="underline"></span>
       <div class="rent-equips-container">
           
@@ -10,19 +10,19 @@
 
 <script>
 export default {
-    name: 'Sales'
+    name:'Machines'
 }
 </script>
 
 <style scoped>
-    .main-sales {
-        height: 100vh;
+    .main-machines {
+        height: auto;
         display: flex;
         padding: 1rem;
         flex-direction: column;
         background-color: #0f0d0d;
     }
-    
+
     h1 {
         color: #e6e4e4;
         font-size: 2rem;
@@ -38,5 +38,12 @@ export default {
         background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(230,228,228,1) 10%, rgba(15,13,13,1) 90%);
         border-radius: 9999px;
     }
-</style>
 
+    .rent-equips-container {
+        height: 1500px;
+        width: 1000px;
+        margin: auto;
+        
+        background-color: rgb(54, 54, 54);
+    }
+</style>

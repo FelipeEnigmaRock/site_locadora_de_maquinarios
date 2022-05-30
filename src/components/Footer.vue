@@ -1,8 +1,8 @@
 <template>
-    <div class="main-footer">
+    <footer class="main-footer">
         <router-link to="/"> <img class="logo" src="../assets/img/logo1.png" alt="Logo da Construtora Leite"> </router-link>
         <h1><router-link to="/" class="h1"> CONSTRUTORA LEITE </router-link></h1>
-    </div>
+    </footer>
 </template>
 
 <script>
@@ -18,7 +18,6 @@ export default {
     background-color: #000;
     display: flex;
     bottom: 0;
-    position: fixed;
     justify-content: center;
     align-items: center;
 }
