@@ -37,5 +37,9 @@ export default {
     .h1 {
         display: none;
     }
+
+    .logo {
+        width: 5rem;
+    }
 }
 </style>

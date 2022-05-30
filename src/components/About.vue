@@ -32,9 +32,9 @@ export default {
         background-color: rgba(0, 0, 0, 0.7);
         display: flex;
         text-align: center;
-        text-justify: center;
+        align-items: center;
         color: #fff;
-        font-size: 3vw;
+        font-size: 2rem;
         box-shadow: inset 0px 30px 54px -37px #fff;
         
     }
