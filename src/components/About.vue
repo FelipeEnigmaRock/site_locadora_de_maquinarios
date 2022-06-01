@@ -32,7 +32,7 @@ export default {
         height: 25rem;
         min-height: 300px;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.4);
         display: flex;
         text-align: center;
         align-items: center;
