@@ -3,7 +3,11 @@
       <h1>Entre em contato conosco</h1>
       <span class="underline"></span>
       <div class="sales-icons">
-         <div class="whats">Whatsapp</div> 
+        <div class="whats">
+        <a href="https://web.whatsapp.com/send?phone=5582993310998" target="_blank">
+          <img class="icon-whats2" src="../assets/img/whatsapp-icone-6.png">
+        </a>
+        </div> 
          <div class="fone">Fone</div> 
          <div class="gmail">Gmail</div> 
          <div class="insta">Instagram</div> 
@@ -59,6 +63,25 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .sales-icons .whats {
+        background: linear-gradient(to bottom, #34af23 5%, #5ad265 100%);
+        background-color: #00a884;
+        border:1px solid #4b7a00;
+        color: #fff;
+
+    }
+
+    .sales-icons .whats:hover {
+        background: linear-gradient(to bottom, #5ad265 5%, #34af23 100%);
+        background-color: #00a884;
+    }
+
+    .icon-whats2 {
+        width: 5rem;
     }
 
     @media (max-width: 1200px) {
