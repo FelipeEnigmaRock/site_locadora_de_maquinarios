@@ -9,18 +9,16 @@
             </div> 
         </a>
         
-        <a href="https://web.whatsapp.com/send?phone=5582993310998" target="_blank">
+        <a href="tel:+5582993310998" target="_blank">
             <div class="fone">
             <img class="icon-fone" src="../assets/img/iconefone.svg" alt="botão do Gmail">
             </div> 
         </a>
         <div class="gmail">
-            <a href="https://web.whatsapp.com/send?phone=5582993310998" target="_blank">
+            <a href = "mailto:vagner.leite@hotmail.com.br" target="_blank">
             <img class="icon-gmail" src="../assets/img/Gmail-Logo.wine.svg" alt="botão do Gmail">
         </a>
         </div> 
-        <div class="insta">Instagram</div> 
-        <div class="facebook">Facebook</div> 
       </div>
   </section>
 </template>
@@ -61,12 +59,13 @@ export default {
         color: #000;
         grid-template-columns: 33% 33% 33%;
         gap: 20px;
+        margin-right: 20px;
         
     }
 
     .sales-icons div {
         height: 12.5rem;
-        width: 22rem;
+        max-width: 30rem;
         background-color: #fff;
         border-radius: 40px;
         display: flex;
@@ -108,7 +107,7 @@ export default {
 
     .sales-icons .fone {
         background: linear-gradient(to bottom, #bebebe 5%, #ffffff 100%);
-        border:1px solid #4b7a00;
+        border:1px solid #555555;
         color: #fff;
 
     }
@@ -129,18 +128,29 @@ export default {
 
     @media (max-width: 860px) {
         .main-sales {
+            margin: auto;
             align-items: center;
         }
         
         .sales-icons {
             grid-template-columns: auto;
         }
+
+        .sales-icons div {
+            width: 40rem;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .sales-icons div {
+            width: 20rem;
+        }
     }
 
     @media (max-width: 380px) {
         .sales-icons div {
             height: 8rem;
-            width: 15rem;
+            width: auto;
         }
 
         h1 {
