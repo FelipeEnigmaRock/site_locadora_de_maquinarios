@@ -36,7 +36,7 @@ export default {
         display: flex;
         text-align: center;
         align-items: center;
-        line-height: 3.6rem;
+        line-height: 3.3rem;
         color: #fff;
         font-size: 2rem;
         box-shadow: inset 0px 30px 54px -37px #fff;  
@@ -52,7 +52,15 @@ export default {
     @media (max-width: 680px) {
         .get-darker {
             font-size: 1.5rem;
+            line-height: 2rem;
         }
         
+    }
+
+    @media (max-width: 300px) {
+        .get-darker {
+            font-size: 1rem;
+            
+        }
     }
 </style>

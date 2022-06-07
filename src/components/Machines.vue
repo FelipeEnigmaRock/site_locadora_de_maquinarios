@@ -40,10 +40,15 @@ export default {
     }
 
     .rent-equips-container {
-        height: 1500px;
-        width: 1000px;
+        
         margin: auto;
         
         background-color: rgb(54, 54, 54);
+    }
+
+    @media (max-width:380px) {
+        h1 {
+            font-size: 1.2rem;
+        }
     }
 </style>

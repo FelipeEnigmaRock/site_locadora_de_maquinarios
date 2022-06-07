@@ -3,7 +3,7 @@
     <router-link to="/"> <img class="logo" src="../assets/img/logo1.png" alt="Logo da Construtora Leite"> </router-link>
     <h1><router-link to="/"> CONSTRUTORA LEITE </router-link></h1>
     <router-link class="inicio" to="/">Início</router-link> 
-    <router-link class="fale" to="/about">Fale Conosco</router-link>
+    <router-link class="fale" to="/about">Obras</router-link>
     
   </header>
 </template>
@@ -74,6 +74,13 @@ a {
   
   h1 {
   display: none;
+}
+
+@media (max-width: 380px) {
+  .inicio,
+  .fale {
+    font-size: 1.2rem;
+  }
 }
 
 }
