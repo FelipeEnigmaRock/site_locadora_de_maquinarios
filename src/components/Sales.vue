@@ -3,15 +3,24 @@
       <h1>Entre em contato conosco</h1>
       <span class="underline"></span>
       <div class="sales-icons">
-        <div class="whats">
         <a href="https://web.whatsapp.com/send?phone=5582993310998" target="_blank">
-          <img class="icon-whats2" src="../assets/img/whatsapp-icone-6.png">
+            <div class="whats">
+                <img class="icon-whats2" src="../assets/img/whatsapp-icone-6.png" alt="botão do hatsapp">
+            </div> 
+        </a>
+        
+        <a href="https://web.whatsapp.com/send?phone=5582993310998" target="_blank">
+            <div class="fone">
+            <img class="icon-fone" src="../assets/img/iconefone.svg" alt="botão do Gmail">
+            </div> 
+        </a>
+        <div class="gmail">
+            <a href="https://web.whatsapp.com/send?phone=5582993310998" target="_blank">
+            <img class="icon-gmail" src="../assets/img/Gmail-Logo.wine.svg" alt="botão do Gmail">
         </a>
         </div> 
-         <div class="fone">Fone</div> 
-         <div class="gmail">Gmail</div> 
-         <div class="insta">Instagram</div> 
-         <div class="facebook">Facebook</div> 
+        <div class="insta">Instagram</div> 
+        <div class="facebook">Facebook</div> 
       </div>
   </section>
 </template>
@@ -69,7 +78,6 @@ export default {
 
     .sales-icons .whats {
         background: linear-gradient(to bottom, #34af23 5%, #5ad265 100%);
-        background-color: #00a884;
         border:1px solid #4b7a00;
         color: #fff;
 
@@ -77,11 +85,40 @@ export default {
 
     .sales-icons .whats:hover {
         background: linear-gradient(to bottom, #5ad265 5%, #34af23 100%);
-        background-color: #00a884;
     }
 
     .icon-whats2 {
         width: 5rem;
+    }
+
+    .sales-icons .gmail {
+        background: linear-gradient(to bottom, #bf211e 5%, #e34133 100%);
+        border:1px solid #8a1816;
+        color: #fff;
+
+    }
+
+    .sales-icons .gmail:hover {
+        background: linear-gradient(to bottom, #e34133 5%, #bf211e 100%);
+    }
+
+    .icon-gmail {
+        width: 9rem;
+    }
+
+    .sales-icons .fone {
+        background: linear-gradient(to bottom, #bebebe 5%, #ffffff 100%);
+        border:1px solid #4b7a00;
+        color: #fff;
+
+    }
+
+    .sales-icons .fone:hover {
+        background: linear-gradient(to bottom, #ffffff 5%, #bebebe 100%);
+    }
+
+    .icon-fone {
+        width: 4rem;
     }
 
     @media (max-width: 1200px) {
