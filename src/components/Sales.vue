@@ -64,8 +64,7 @@ export default {
     }
 
     .sales-icons div {
-        height: 12.5rem;
-        max-width: 30rem;
+        height: 14rem;
         background-color: #fff;
         border-radius: 40px;
         display: flex;
@@ -141,7 +140,7 @@ export default {
         }
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 680px) {
         .sales-icons div {
             width: 20rem;
         }

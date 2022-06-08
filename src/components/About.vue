@@ -18,7 +18,7 @@ export default {
 <style scoped>
     .main-about {
         width: 100%;
-        height: 25rem;
+        height: 28rem;
         min-height: 300px;   
         display: flex;   
         justify-content: center;
@@ -29,7 +29,7 @@ export default {
 
     .get-darker {
         width: 100%;
-        height: 25rem;
+        height: 28rem;
         min-height: 300px;
         padding: 20px;
         background-color: rgba(0, 0, 0, 0.4);
