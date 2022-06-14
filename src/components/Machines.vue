@@ -16,7 +16,7 @@ export default {
 
 <style scoped>
     .main-machines {
-        height: auto;
+        height: 100vh;
         display: flex;
         padding: 1rem;
         flex-direction: column;
