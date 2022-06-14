@@ -2,8 +2,15 @@
   <section class="main-machines">
       <h1>Maquinário disponível</h1>
       <span class="underline"></span>
-      <div class="rent-equips-container">
-          
+      <div class="items-wrapper">
+          <div class="items">
+            <div class="item"><img src= "../assets/img/retroescavadeira-case-580n-01.avif"></div>
+            <div class="item"><img src= "../assets/img/retroescavadeira-case-580n-02.avif"></div>
+            <div class="item"><img src= "../assets/img/retroescavadeira-case-580n-01.avif"></div>
+            <div class="item"><img src= "../assets/img/retroescavadeira-case-580n-02.avif"></div>
+            <div class="item"><img src= "../assets/img/retroescavadeira-case-580n-01.avif"></div>
+            
+          </div>
       </div>
   </section>
 </template>
@@ -16,11 +23,11 @@ export default {
 
 <style scoped>
     .main-machines {
-        height: 100vh;
+        height: auto;
         display: flex;
         padding: 1rem;
         flex-direction: column;
-        background-color: #0f0d0d;
+        background-color:#0f0d0d ;
     }
 
     h1 {
@@ -39,11 +46,28 @@ export default {
         border-radius: 9999px;
     }
 
-    .rent-equips-container {
-        
-        margin: auto;
-        
-        background-color: rgb(54, 54, 54);
+    .items-wrapper {
+        height: auto;
+        width: 100%;
+        background-color: rgba(202, 28, 28, 0.192);
+        display: flex;
+    }
+
+    .items {
+        height: 100vh;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .item {
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+    }
+    img {
+        max-height: 100%;
+        max-width: 100%;
+        overflow: hidden;
     }
 
     @media (max-width:380px) {
