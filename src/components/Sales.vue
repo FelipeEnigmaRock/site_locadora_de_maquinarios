@@ -1,6 +1,6 @@
 <template>
     <section class="main-sales">
-      <h1>Entre em contato conosco</h1>
+      <h1>Entre em contato</h1>
       <span class="underline"></span>
       <div class="sales-icons">
         <a href="https://web.whatsapp.com/send?phone=5582993310998" target="_blank">
@@ -42,6 +42,7 @@ export default {
         color: #e6e4e4;
         font-size: 2rem;
         margin: 20px 0 5px 20px;
+        align-self: flex-start;
 
     }
 
@@ -55,16 +56,18 @@ export default {
     }
 
     .sales-icons {
-        display: grid;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center ;
         color: #000;
-        grid-template-columns: 33% 33% 33%;
         gap: 20px;
-        margin-right: 20px;
         
     }
 
     .sales-icons div {
         height: 14rem;
+        width: 16rem;
         background-color: #fff;
         border-radius: 40px;
         display: flex;
@@ -119,42 +122,11 @@ export default {
         width: 4rem;
     }
 
-    @media (max-width: 1200px) {
+    @media (min-width:680px) {
         .sales-icons {
-        grid-template-columns: 50% 50%;
+            grid-template-columns: 33% 33% 33%;
         }
     }
-
-    @media (max-width: 860px) {
-        .main-sales {
-            margin: auto;
-            align-items: center;
-        }
-        
-        .sales-icons {
-            grid-template-columns: auto;
-        }
-
-        .sales-icons div {
-            width: 40rem;
-        }
-    }
-
-    @media (max-width: 680px) {
-        .sales-icons div {
-            width: 20rem;
-        }
-    }
-
-    @media (max-width: 380px) {
-        .sales-icons div {
-            height: 8rem;
-            width: auto;
-        }
-
-        h1 {
-            font-size: 1.2rem;
-        }
-    }
+    
 </style>
 

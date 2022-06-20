@@ -2,7 +2,7 @@
   <div class="home">
     <About />
     <Sales />
-    <Machines />
+    
   </div>
 </template>
 
