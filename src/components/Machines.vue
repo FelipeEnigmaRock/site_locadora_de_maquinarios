@@ -2,33 +2,16 @@
   <section class="main-machines">
         <h1>Maquinário disponível</h1>
         <span class="underline"></span>
-        <div class="app">
-            <carousel>
-            <carousel-slide v-for="(slide,index) in slides" :key="slide" :index="index"></carousel-slide>
-                <img :src="slide" />
-            </carousel>
-        </div>  
+        
       
   </section>
 </template>
 
 <script>
 import CarouselSlide from './CarouselSlide.vue';
-import Carousel from './Carousel.vue';
 export default {
-    data() {
-        return {
-            slides: [
-                '../assets/img/retroescavadeira-case-580n-01.avif',
-                '../assets/img/retroescavadeira-case-580n-02.avif',
-                '../assets/img/retroescavadeira-case-580n-01.avif',
-                '../assets/img/retroescavadeira-case-580n-02.avif',
-                '../assets/img/retroescavadeira-case-580n-01.avif',
-            ],
-            visibleSlide: 0,
-        }
-    },
-    components: { CarouselSlide, Carousel },
+    
+    components: { CarouselSlide },
     name:'Machines'
 }
 </script>
