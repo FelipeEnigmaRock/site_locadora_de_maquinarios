@@ -2,6 +2,7 @@
   <section class="main-machines">
         <h1>Maquinário disponível</h1>
         <span class="underline"></span>
+        <CarouselSlide />
         
       
   </section>
